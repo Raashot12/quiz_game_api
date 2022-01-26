@@ -1,0 +1,34 @@
+body {
+    background-color: #00796B;
+}
+.container-questions {
+    background-color: #FFFFFF;
+    padding: 2rem;
+}
+.questions li {
+    list-style: none;
+    padding-left: 0;
+    background-color: #FFC107;
+    padding: 1rem!important;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: black
+}
+.questions li.active {
+    background-color: #00796B;
+    color: white;
+}
+p.category {
+    font-size: 1.2rem;
+}
+.heading {
+    margin-bottom: 2rem;
+}
+.badge {
+    font-size: 2rem;
+}
+.btn-primary,
+.btn-danger {
+    color: white!important;
+    font-size: 1.2rem;
+}
